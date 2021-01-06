@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;}
+
+nav{
+    display: flex;
+    justify-content: space-between;}
+
+.name{display: flex;}
+
+.name img{height:40px;
+          width:40px;
+          margin: 20px 20px 30px}
+
+.name h1{display:inline;
+         font-size: 200%;
+         padding: 10px 10px 10px 10px;
+         margin: 10px 10px; 
+         color: lightseagreen;
+        }
+.title{color: grey;}
+
+ul{display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 80px;
+   width: 40%;
+   font-size: 150%;
+   list-style-type: none;
+}
+
+a:link{display: inline-block;
+       text-decoration: none;
+       color: lightseagreen;}
+
+.Career:link{color:grey;}
+.Career:hover{color: lightseagreen;}
+
+.Department:link{color:grey;}
+.Department:hover{color: lightseagreen;}
+
+
+main .logo{
+    margin-left: 45%;
+}
+
+main h1{text-align: center;
+        width: 600px;
+        color: lightseagreen;
+        margin: auto;}
+
+.patients{width:30%;
+          height:70%;
+          display:block;
+          margin-right: 10px;
+          margin-top: 50px;
+          }
+
+.patients p{text-align: justify;
+            margin-bottom: 80px;}
+
+.doctors{width:30%;
+    height:70%;
+    display:block;
+    margin-left: 10px;
+    margin-top: 50px;}
+
+.doctors p{text-align: justify;
+           margin-bottom: 80px;}
+
+.blocks{display:flex;
+        justify-content: center;}
+
+.find-a-doctor{background-color: lightseagreen;
+               border: 1px solid transparent;
+               border-radius: 10px ;
+               overflow: hidden;
+               height: 40%;}
+
+.save-time{background-color: blue;
+           border: 1px solid transparent;
+           border-radius: 10px;
+           overflow: hidden;
+           height: 40%;}
+
+.find-a-doctor img{width:150%;}
+
+.save-time img{width:150%;
+               margin-bottom: 30px;}
+
+p .find-a-doctor{line-height: 1.6;
+                font-size: 180%;
+                text-align: center;
+                color: white;}
+
+.find-a-doctor p{color: thistle;}
+
+p .save-time{line-height: 1.6;
+    font-size: 180%;
+    text-align: center;
+    color: white;}
+
+.save-time p{color: thistle;}
+
+select{border-color: transparent;
+       height:30px;}
+
+.global-company{display: flex;
+                margin-top: 30px;}
+
+.global-company h1{width: 250px;
+                   height: auto;}
+
+.global-company ul{display: flex;
+                   width : 35%;
+                   flex-wrap: wrap;
+                   justify-content: space-around;
+}
+
+.platform{background-color: lightsteelblue;
+          display:flex;
+          justify-content: space-around;}
+
+.healthcare{display:flex;
+            flex-direction: column;
+            width: 50% ;}
+.healthcare h1{margin-left: 50px;
+               width: 300px;}
+
+.healthcare p{margin-left: 50px;
+              width: 400px;
+             margin-bottom: 30px;}
+
+.healthcare img{width: 50%;
+                height: 60%;}
+
+.pub{display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     width:40%}
+
+#country{background-color: white;
+         width: 200px;
+         height: 210px;
+         margin: 20px;}
+
+#appointments{background-color: white;
+              width: 200px;
+              height: 210px;
+              margin: 20px;}
+
+#patients-visits{background-color: white;
+                 width: 200px;
+                 height: 210px;
+                 margin: 20px;}
+
+#active-doctors{background-color: white;
+                width: 200px;
+                height: 210px;
+                margin: 20px;}
+
+#country img,#appointments img,#patients-visits img,#active-doctors img{display:block;
+             margin-left: auto;
+             margin-right: auto;}
+
+#country h2,#appointments h2,#patients-visits h2,#active-doctors h2 {text-align: center;
+                                                                     margin-top: 10px;}
+#country p,#appointments p,#patients-visits p,#active-doctors p, {text-align: center;
+                                                                 margin-top: 20px;}  
+.change, .offices{width: 30%;
+                  text-align: center;
+                  margin: auto;
+                  margin-top: 20px;
+                  margin-bottom: 10px;}  
+    
+.grid{width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    justify-self: end;}
+
+button{display: block;
+       margin-left: 180px;
+       margin-bottom: 10px;
+       background-color: blue;
+       color: white;
+       border-radius: 5px;
+       padding: 10px;}
+
+#Warsaw p, #Barcelona p, #Istanbul p, #Rome p, #Bologna p, #Curtibia p, #Mexico-City p{font-size: initial;
+}
+
+footer{margin-top: 30px;
+       text-align: center;}
+
+p a:hover{text-decoration-line: underline;}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .Department-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .Department-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.Department-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .Department-content {
+      display: block;
+    }
+    
+.dropdown:hover .Department {
+      background-color: white
+
+
+
+ 
+
+
+
+
+
+
+    
